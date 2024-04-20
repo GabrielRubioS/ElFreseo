@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.section1{
+    flex-wrap: wrap;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: Brush Script MT;
+    color: white;
+    font-size: 30px;
+    padding: 1rem;
+}
+.logotipo{
+    margin-left: 3rem;
+    filter: drop-shadow(6px 6px 6px rgba(255, 0, 0, 0.552));
+}
+
+button a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 3px;
+    background-color: #ffddde;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 5px rgb(188, 68, 199));
+}
+
+
+h2{
+    /* background-color: rgb(247, 148, 164); */
+    border-radius: 5px ;
+}
+
+.fondo{
+    background-image: url(./images/fondofffffresa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(10px 10px 10px rgb(255, 0, 217));
+}
+p{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+.parrafo{
+    /* font-weight: bold; */
+    border-radius: 20px;
+    box-shadow: 0 12px 40px 15px rgba(255, 0, 255, 0.8);
+    border:3px solid rgba(255, 0, 0, 0.43);
+    padding: 1rem;
+    width: 620px;
+    height: 360px;
+    /* margin-right: 0.2rem; */
+}
+
+
+.imagenfresa{
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 25px 25px  25px 0  rgba(70, 8, 70, 0.8);
+    margin-left: 7rem;
+}
+.buton{
+    background-image: url(./images/fondofresas.jpg);
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+}
+.boton1 a{
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    border: 2px solid black;
+    box-shadow: 0px 8px 15px rgb(0, 0,0,0.1);
+}
+
+.boton1 a:hover{
+    background-color: #ff00e198;
+    box-shadow: 0px 15px 20px rgba(255, 0, 234, 0.36);
+    color: #fff;
+    transform: translateY(-50px);
+}
+
+
+.fondo2{
+    background-image: url(./images/fondofresas.jpg);
+    padding-top: 3%;
+    justify-content: space-between;
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.caja1{
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px 10px rgba(162, 30, 162, 0.858);
+    border:3px solid rgba(255, 0, 0, 0.43);
+    padding: 1rem;
+    width: 600px;
+    height: 390px;
+}
+.caja2{
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px 10px rgba(169, 19, 169, 0.86);
+    border:3px solid rgba(255, 0, 0, 0.43);
+    padding: 3rem;
+    width: 600px;
+    height: 390px;
+
+}
+
+.cajasjuntas{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem ;
+}
+.nacimiento{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(5px 7px 7px rgb(126, 6, 104));
+}
+
+
+.fondocaja2{
+    justify-content: end;
+}
+
+
+.slider{
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin: auto;
+    height: 850px;
+    width: 35%;
+    background-color: red;
+    overflow: hidden;
+    display: flex;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.contenedor{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100% 100% 100% 100%;
+    animation-name: mover;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.imagen1{
+    background-image: url(./images/concha.png);
+    width: 100%;
+    /* height: 500px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imagen2{
+    background-image: url(./images/coca.png);
+    width: 100%;
+    /* height: 500px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imagen3{
+    background-image: url(./images/coquita.jpeg);
+    width: 100%;
+    /* height: 500px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@keyframes mover {
+    25%{
+        margin-left: 0%;
+    }
+    28%{
+        margin-left: -100%;
+    }
+    54%{
+        margin-left: -100%;
+    }
+    58%{
+        margin-left: -200%;
+    }
+    
+    95%{
+        margin-left: -200%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
+
+.pies{
+    justify-content: space-around;
+    display: flex;
+    height: 90px;
+    background-image: url(./images/fondofresas.jpg);
+}
+
+.titulopies{
+    align-items: center;
+}
+
+.fresita{
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+    margin: 1rem;
+}
+.fresita2{
+    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
